@@ -3,6 +3,9 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+
+# Problem link: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         if head is None:
