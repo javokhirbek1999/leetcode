@@ -1,3 +1,4 @@
+// O(1) Implementation
 class MyQueue {
     ArrayList<Integer>stack;
     /** Initialize your data structure here. */
