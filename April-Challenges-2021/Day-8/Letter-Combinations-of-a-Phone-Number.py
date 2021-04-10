@@ -1,12 +1,14 @@
 class Solution:
-    def isAlienSorted(self, words, order):
-        ord_d = {l:i for i, l in enumerate(order)}
-         
-        for w1, w2 in zip(words, words[1:]):
-            for i, j in zip(w1, w2):
-                if i != j:
-                    if ord_d[i] > ord_d[j]: return False
-                    break
-            if w1.startswith(w2) and w1 != w2: return False
-            
-        return True
+    def letterCombinations(self, digits: str) -> List[str]:
+        if len(digits)==0:
+            return []
+        else:
+            keys = {'2':['a','b','c'],
+                '3':['d','e','f'],
+                '4':['g','h','i'],
+                '5':['j','k','l'],
+                '6':['m','n','o'],
+                '7':['p','q','r','s'],
+                '8':['t','u','v'],
+                '9':['w','x','y','z']}
+            return ["".join(i) for i in product(*[keys[j] for j in digits])]                
