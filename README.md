@@ -3,6 +3,7 @@
   <li><a href="https://github.com/javokhirbek1999/leetcode/tree/main/Python">Python</a></li>
   <li><a href="https://github.com/javokhirbek1999/leetcode/tree/main/C%2B%2B">C++</a></li>
   <li><a href="https://github.com/javokhirbek1999/leetcode/tree/main/Java">Java</a></li>
+  <li><a href="https://github.com/javokhirbek1999/leetcode/tree/main/Golang">Golang</a></li>
 </ul>
 <hr/>
 <h2>Leetcode Challenges</h2>
